@@ -67,7 +67,7 @@ REQUIRED_PACKAGES = [
     'keras_preprocessing >= 1.0.5',
     # mock comes with unittest.mock for python3, need to install for python2
     'mock >= 2.0.0;python_version<"3"',
-    'numpy >= 1.16.0, < 1.19.0',
+    'numpy >= 2.0.0, < 2.1.0',
     'opt_einsum >= 2.3.2',
     'six >= 1.10.0',
     # Protobuf >= 4.00 has breaking changes not compatible with TF 1.15
